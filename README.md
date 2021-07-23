@@ -8,3 +8,8 @@ windows zip和debian的编码存在误差unzip命令没有-O命令
     mv ./unzip.py /usr/sbin/unzip_py
      
     chmod +x unzip_py
+- 使用方式
+
+    sudo sh install.sh
+    
+    unzip_py xxx.zip
